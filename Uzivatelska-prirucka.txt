@@ -1,0 +1,15 @@
+Přiložené CD neobsahuje testovací databázi, neboť není veřejně přístupná, dostupná je pouze na požádání u vedoucího práce doc. Ing. Jiřího Schimmela, Ph.D.
+
+Postup spuštění aplikace (pro OS Windows):
+
+1) Stáhněte programy Node.js a MariaDB ze stránek výrobců, tyto programy nainstalujte
+
+2) V editoru kódu otevřete složky Back-end a Front-end a stáhněte v každé z nich příkazem „npm i“ potřebné knihovny
+
+3) V aplikaci MySQL Client (nainstalovaném zároveň s MariaDB) se přihlašte a zadejte příkaz: „CREATE DATABASE (jméno databáze)“
+
+4) Pomocí příkazu mysql -u root -p (jméno databáze) < (dumpTestovacíDatabáze).sql naplňte databázi daty (je možné, že bude nejdříve potřeba přidat program „mysql.exe“ do proměnné prostředí „path“)
+
+5) Ve složce Back-end doplňte přihlašovací údaje do souboru env-config.ts
+
+6) V obou složkách aplikaci spusťte příkazem „npm run start“ 
