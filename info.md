@@ -1,1 +1,0 @@
-This bachelor thesis is a full-stack application which was finished circa May 2020. Unfortunately I cannot use the real database for which this app was built but I will soon put out a video demonstrating how it works and looks.
