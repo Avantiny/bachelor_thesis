@@ -27,8 +27,7 @@ data. Videos can be played in a video player and a list of similar videos is gen
 The list is based on keywords which the videos have in common. The main technologies
 used in the application are Node.js, React and MariaDB. A good amount of libraries are
 used for this application, allowing JavaScript to be the primary programming language
-in all phases of development. The text of this bachelor thesis can be dividen in two parts
-- theoretical and practical. The first part describes all the technologies and libraries
+in all phases of development. The text of this bachelor thesis can be dividen in two parts: theoretical and practical. The first part describes all the technologies and libraries
 used in the application. An in depth approach was taken especially on those parts of
 each library which are actually being used in the practical. Apart from the necessary
 technologies, the reader will be also introduced to libraries and systems which help
